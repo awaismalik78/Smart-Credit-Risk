@@ -1,5 +1,6 @@
 # Smart Credit Risk Platform - Full Dependencies
-
+setuptools
+wheel
 # ==== Web Framework ====
 fastapi==0.100.0
 uvicorn[standard]==0.23.2

@@ -1,6 +1,7 @@
 # Minimal runtime dependencies for FastAPI + ML inference
 # Install with: pip install -r requirements-runtime.txt
-
+setuptools
+wheel
 # Web Framework
 fastapi==0.100.0
 uvicorn[standard]==0.23.2
