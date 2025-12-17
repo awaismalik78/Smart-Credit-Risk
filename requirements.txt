@@ -1,0 +1,50 @@
+# Smart Credit Risk Platform - Full Dependencies
+
+# ==== Web Framework ====
+fastapi==0.100.0
+uvicorn[standard]==0.23.2
+python-multipart==0.0.6
+
+# ==== Data Processing ====
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.11.1
+openpyxl==3.1.2
+
+# ==== Machine Learning ====
+scikit-learn==1.3.0
+xgboost==2.0.0
+joblib==1.3.1
+
+# ==== Data Validation & Quality ====
+pydantic==2.2.0
+deepchecks==0.18.0
+
+# ==== Orchestration & Workflows ====
+prefect==2.14.0
+
+# ==== Testing ====
+pytest==7.4.0
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# ==== Code Quality & Linting ====
+black==23.9.1
+flake8==6.0.0
+pylint==2.17.5
+bandit==1.7.5
+
+# ==== HTTP Client ====
+requests==2.31.0
+aiohttp==3.8.5
+
+# ==== Utilities ====
+python-dotenv==1.0.0
+pyyaml==6.0.1
+click==8.1.7
+
+# ==== Visualization (Optional) ====
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.16.1
+
