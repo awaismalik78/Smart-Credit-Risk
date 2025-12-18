@@ -14,7 +14,7 @@ build/
 
 # ML
 data/
-models/
+# models/
 *.pkl
 
 # OS
